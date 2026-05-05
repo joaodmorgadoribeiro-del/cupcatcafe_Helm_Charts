@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  cupcatcafe:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-05-05T18:35:22.955854391+01:00"
+    description: "A Helm chart for CupCat Café — where pixel cats serve cupcakes \U0001F9C1"
+    digest: 11c436b76cbdeb6ea29fd49f539a7f24b0b9fd1804df047d852b181451573baa
+    name: cupcatcafe
+    type: application
+    urls:
+    - https://joaodmorgadoribeiro-del.github.io/helm-charts/cupcatcafe-0.1.0.tgz
+    version: 0.1.0
+generated: "2026-05-05T18:35:22.955610556+01:00"
