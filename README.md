@@ -28,23 +28,6 @@ cupcatcafe/
     ├── service.yaml     # Kubernetes Service (LoadBalancer)
     └── configmap.yaml   # HTML page served by Nginx
 ```
-
----
-
-## 🧠 Key Concepts Covered
-
-### 🎯 Helm = The Terraform of Kubernetes
-
-| | Terraform | Helm |
-|---|---|---|
-| Manages | AWS Infrastructure | Apps inside K8s |
-| Config file | `variables.tf` | `values.yaml` |
-| Templates | `main.tf` | `templates/` |
-| Install | `terraform apply` | `helm install` |
-| Destroy | `terraform destroy` | `helm uninstall` |
-
-> Both follow the same philosophy: **define what you want, let the tool handle the rest.**
-
 ---
 
 ### 📦 Helm Chart Structure
